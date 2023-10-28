@@ -707,7 +707,7 @@ p {
 
 
     .hero img {
-        scale: 2;
+        scale: 1.5;
     }
 
     .hero img:nth-child(1) {
