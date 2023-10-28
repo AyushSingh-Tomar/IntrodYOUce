@@ -14,6 +14,11 @@
 </head>
 
 <body>
+    <div class="my-modal" id="my-modal">
+        <div class="Modal-image">
+            <img src="https://i.ibb.co/XDskhs2/Modal-of-Introduce.png" alt="Modal-of-Introduce" style="border-radius:16px ;"></div>
+        <div class="close-modal-box"><i onclick="cls()" class="bx bx-x Modal-Close"></i></div >
+    </div>
     <div class="home-banner" id="home-banner-op">
         <div class="home-navbar" id="home-navbar-op">
             <div class="home-logo"><a href="">IntrodYOUce</a></div>
@@ -23,6 +28,7 @@
                 <li><a href="#">Your portfolio</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
+                <li class="ModeChange" style="color:yellow;"><i class='bx bxs-moon'></i ></li>
             </ul>
         </div>
         <div class="home-dropdown-menu">
@@ -31,6 +37,7 @@
                 <li><a href="#">Your portfolio</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
+                <li class="ModeChange2" style="color:yellow;"><i class='bx bxs-moon'></i ></li>
             </ul>
         </div>
         <div class="home-content">
@@ -38,22 +45,25 @@
                 <div class="circle-i"></div>
 
             </div>
-            <h1>IntrodYOUce</h1>
+            <div class="animate-cont-logo">
+                <h1 class="animate-logo">IntrodYOUce</h1>
+            </div>
             <p>Introduces your best to the world</p>
-            <div class="btns-of-banner"><button><span></span>Order</button ></div>
-            <div class="btns-of-banner"><button><span></span>View-plans</button ></div>
+            <div class="btns-of-banner"><button><span></span>Order</button></div>
+            <div class="btns-of-banner"><button><span></span>View-plans</button></div>
         </div>
     </div>
     <section class="sec-1 show-animate">
         <div class="header animate" id="myHeader">
             <div class="home-navbar animate" id="home-navbar-op">
-                <div class="home-logo"><a href="">IntrodYOUce</a></div>
+                <div style="margin-top: -15px;" class="home-logo "><a href="">IntrodYOUce</a></div>
                 <div class="home-navbar-toggle-btn1"><i class='bx bx-menu'></i></div>
                 <ul class="home-navbar-links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Your portfolio</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li class="ModeChange1" style="color:darkorange;"><i class='bx bxs-moon'></i ></li>
                 </ul>
             </div>
             <div class="home-dropdown-menu1">
@@ -62,57 +72,98 @@
                     <li><a href="#">Your portfolio</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li class="ModeChange3" style="color:yellow;"><i class='bx bxs-moon'></i ></li>
                 </ul>
             </div>
         </div>
         <template-section>
-            <div class="templates-section"> <section class="hero">
-                <h1 class="hero__title">
-                    <div data-hidden>
-                        <span>F</span>
-                        <span>o</span>
-                        <span>r</span>
+            <div class="templates-section">
+                <section class="hero">
+                    <h1 class="hero__title">
+                        <div data-hidden>
+                            <span>F</span>
+                            <span>o</span>
+                            <span>r</span>
 
+                        </div>
+                        <div data-hidden>
+                            <span>a</span>
+                            <span>n</span>
+                            <span>y</span>
+                        </div>
+                        <div data-hidden>
+                            <span>p</span>
+                            <span>r</span>
+                            <span>o</span>
+                            <span>f</span>
+                            <span>e</span>
+                            <span>s</span>
+                            <span>s</span>
+                            <span>i</span>
+                            <span>o</span>
+                            <span>n</span>
+                        </div>
+                    </h1>
+                    <div class="hero__images">
+                        <img src="https://i.ibb.co/jgNv2p8/tut-teacher.png" alt="Teacher" data-hidden />
+                        <img src="https://i.ibb.co/cDLwD0L/actor.png" alt="Actor" data-hidden />
+                        <img src="https://i.ibb.co/zZdFk8b/animator.png" alt="Animator" data-hidden />
+                        <img src="https://i.ibb.co/r2w05K8/mechanic.png" alt="Mechanic" data-hidden />
+                        <img src="https://i.ibb.co/LZgpLhd/photographer.png" alt="Photographer" data-hidden />
+                        <img src="https://i.ibb.co/zsncwGY/eng.png" alt="Consultancy" data-hidden />
+                        <img src="https://i.ibb.co/SPtbTH4/developer.png" alt="Developer" data-hidden />
+                        <img src="https://i.ibb.co/hcpQnDH/lawyer.png" alt="Lawyer" data-hidden />
                     </div>
-                    <div data-hidden>   
-                        <span>a</span>
-                        <span>n</span>
-                        <span>y</span>
-                    </div>
-                    <div data-hidden>
-                        <span>p</span>
-                        <span>r</span>
-                        <span>o</span>
-                        <span>f</span>
-                        <span>e</span>
-                        <span>s</span>
-                        <span>s</span>
-                        <span>i</span>
-                        <span>o</span>
-                        <span>n</span>
-                    </div>
-                </h1>
-                <div class="hero__images">
-                    <img src="https://picsum.photos/200" data-hidden/>
-                    <img src="https://picsum.photos/200" data-hidden/>
-                    <img src="https://picsum.photos/200" data-hidden/>
-                    <img src="https://picsum.photos/200" data-hidden/>
-                    <img src="https://picsum.photos/200" data-hidden/>
-                    <img src="https://picsum.photos/200" data-hidden/>
-                    <img src="https://picsum.photos/200" data-hidden/>
-                    <img src="https://picsum.photos/200" data-hidden/>
-                </div>
-            </section></div>
+
+
+
+                </section>
+            </div>
         </template-section>
 
     </section>
-
-
+    <div class="plans-wrapper">
+        <div class="plans-parent">
+            <div class="plans-child bg-one" >
+                <div class="content-rev">
+                    <h1>Token Designs</h1>
+                    <p>Choose among various ready-made designs</p>
+                    <p>Choose among various ready-made designs</p>
+                    <p>Choose among various ready-made designs</p>
+                    <p>Choose among various ready-made designs</p>
+                </div>
+            </div>
+        </div>
+        <div class="plans-parent">
+            <h1 style="text-align:center;">Token Designs</h1>
+            <div class="plans-child bg-two">
+                <div class="content-rev">
+                    <h1>Customizable Token designs</h1>
+                    <p>Get your designs personally customized</p>
+                    <p>Get your designs personally customized</p>
+                    <p>Get your designs personally customized</p>
+                    <p>Get your designs personally customized</p>
+                </div>
+            </div>
+        </div>
+        <div class="plans-parent">
+            <h1 style="text-align:center;">Token Designs</h1>
+            <div class="plans-child bg-three">
+                <div class="content-rev">
+                    <h1> Your very own designs</h1>
+                    <p>Well, why not having your very own design!</p>
+                    <p>Well, why not having your very own design!</p>
+                    <p>Well, why not having your very own design!</p>
+                    <p>Well, why not having your very own design!</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
 
     </footer>
 
-   <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
